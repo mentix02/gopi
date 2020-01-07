@@ -18,7 +18,7 @@ func PosRange(n int) []uint {
 // [start, end - 1) with a step after each iteration.
 func Range(start, end, step int) []int {
 	if end <= start {
-		return []int{}
+		return nil
 	}
 
 	diff := end - start
