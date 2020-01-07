@@ -11,3 +11,13 @@ func Map(fn apply, data []interface{}) []interface{} {
 	}
 	return d
 }
+
+
+// SelfMap is similar to Map but instead of returning
+// a new slice of the data provided, it directly changes
+// the data slice provided.
+func SelfMap(fn apply, data []interface{}) {
+	for index, item := range data {
+		data[index] = fn(item)
+	}
+}
