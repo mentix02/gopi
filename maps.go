@@ -12,7 +12,6 @@ func Map(fn apply, data []interface{}) []interface{} {
 	return d
 }
 
-
 // SelfMap is similar to Map but instead of returning
 // a new slice of the data provided, it directly changes
 // the data slice provided.
