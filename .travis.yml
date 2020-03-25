@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.x
+
+script:
+  - go get github.com/mentix02/gopi && go test github.com/mentix02/gopi
+
+notifications:
+  email: false
