@@ -1,8 +1,9 @@
 # gopi
 
+![Go](https://github.com/mentix02/gopi/workflows/Go/badge.svg)
 ![GitHub](https://img.shields.io/github/license/mentix02/gopi)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mentix02/gopi/Go)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mentix02/gopi)
+[![Build Status](https://travis-ci.org/mentix02/gopi.svg?branch=master)](https://travis-ci.org/mentix02/gopi)
 [![Coverage Status](https://coveralls.io/repos/github/mentix02/gopi/badge.svg)](https://coveralls.io/github/mentix02/gopi)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mentix02/gopi)](https://goreportcard.com/report/github.com/mentix02/gopi)
 
